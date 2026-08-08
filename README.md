@@ -76,6 +76,13 @@ comes upright when the slapstick is held to swing.
    rope is the hinge — no pin, no hardware. Length and thickness are yours; the holes
    are ~5mm, which sets the ceiling.
 
+**Where the handle sits decides how fast the slats meet.** The free slat turns about the
+hinge, so the ratio is tip distance ÷ grip distance. From the hinge, the tip is 467mm and
+the engraved handle runs 83–173mm — so the tip moves **5.6× to 2.7×** your hand speed
+depending where you hold it. Sliding your hand along the existing 90mm handle already
+spans a factor of two; moving the rectangle closer to the hinge before cutting buys more,
+at the cost of needing a harder pull and being twitchier to aim.
+
 ## Before you cut
 
 **Cut it in 3mm Baltic birch plywood** — what this is built in. Three paddle blanks make

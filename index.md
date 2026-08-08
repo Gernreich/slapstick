@@ -113,6 +113,31 @@ that sets the ceiling.
 **The engraved rectangle is a mark, not a recess.** Engraving removes very little
 material, so the handle glues onto the surface rather than into a pocket.
 
+### Where the handle sits decides how fast the slats meet
+
+The free slat turns about the rope hinge, so the whole thing is a lever. Rotating your
+grip through a small angle swings the tip through the same angle at a much longer radius,
+and the ratio is simply **tip distance ÷ grip distance**, both measured from the hinge.
+Move the grip closer to the hinge and the tip moves faster for the same hand motion.
+
+Measured off the sheet, from the hinge line: the tip is **467mm** away and the engraved
+handle footprint runs from **83mm** to **173mm**.
+
+| Grip, from the hinge | Tip moves |
+|---|---|
+| 83mm — handle edge nearest the hinge | **5.6×** as fast as your hand |
+| 128mm — centre of the engraved rectangle | **3.6×** |
+| 173mm — handle edge furthest from the hinge | **2.7×** |
+
+**You can test this without re-cutting anything.** The handle is 90mm long, so sliding
+your hand from one end of it to the other already spans 5.6× down to 2.7× — a factor of
+two in tip speed, on the slapstick as drawn.
+
+If you want more than that, move the engraved rectangle closer to the hinge before
+cutting. Two things push back: the same lever that multiplies speed divides force, so a
+closer grip needs a harder pull for the same swing, and it gets twitchier to aim. The
+handle also has to clear the rope and still fit a hand — 90mm of it.
+
 ## Before you cut
 
 **Cut it in 3mm Baltic birch plywood.** That is what this is built in, and the laminates

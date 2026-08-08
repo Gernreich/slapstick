@@ -22,7 +22,7 @@ physical `width`/`height` — so it prints and cuts at real size.
 </table>
 
 *One sheet per side. Click either to download it — these are display renderings, since the
-cut files draw a hairline on no background that a browser shows almost invisibly.*
+cut files draw a hairline on no background that a browser shows almost invisibly. Green, orange and cyan are darkened in the picture — at full strength they are too pale to read against a light ground. The cut file keeps the exact values.*
 
 **[Read the writeup](https://gernreich.github.io/slapstick/)**
 

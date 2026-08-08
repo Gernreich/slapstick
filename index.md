@@ -147,7 +147,7 @@ handle also has to clear the rope and still fit a hand — 90mm of it.
 
 ## Before you cut
 
-**Cut it in 3mm Baltic birch plywood.** That is what this is built in, and the laminates
+**Cut it in 3mm Baltic birch plywood.** That is what this is built in, and the laminations
 are counted for it: three paddle blanks make a **9mm** slat, and five handle strips make a
 **15mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
 thicknesses are doing real work — change the stock and you change how stiff each slat is.

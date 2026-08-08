@@ -9,9 +9,10 @@ This one carries a face on each side, taken from the **comedy and tragedy masks*
 theatre: laughing on one, weeping on the other. Which way round it lands when you swing
 it is the joke.
 
-Each side is a laminate — **three paddle blanks glued face to face** — and the handle is
-built the same way, from the short strips, then glued to the paddle where the engraved
-rectangle marks it.
+Each side is a laminate: **three paddles are glued one on top of the other, making sure
+that both sides have the face out**, which will work because of the horizontal symmetry.
+The handle is built the same way, from the short strips, then glued to the paddle where
+the engraved rectangle marks it.
 
 ## Get the files
 
@@ -91,8 +92,12 @@ length. It comes upright when the slapstick is held to swing.
 
 ## Building it
 
-1. **Glue three paddle blanks face to face**, once per sheet — three for comedy, three
-   for tragedy. That laminate is one slat of the slapstick.
+1. **Glue three paddles one on top of the other**, once per sheet — three for comedy,
+   three for tragedy. That laminate is one slat. **Make sure both sides have the face
+   out**: turn the outer two so the engraving shows, and the middle one however you
+   like. This works because the face is symmetric about the paddle's long centreline —
+   the circle, the mouth and the glue rectangle sit on it, and the two eyes are at
+   exactly ±9mm — so turning a paddle over leaves the face reading the same.
 2. **Glue the five short strips into one block.** That is the handle.
 3. **Glue the handle to the paddle over the engraved rectangle**, which is there to
    show you where. It starts 294.5mm along, so the handle sits toward the far end from

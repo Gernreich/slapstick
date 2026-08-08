@@ -65,8 +65,10 @@ comes upright when the slapstick is held to swing.
 
 ## Building it
 
-1. **Glue three paddle blanks face to face** — three for comedy, three for tragedy. Each
-   laminate is one slat.
+1. **Glue three paddles one on top of the other** — three for comedy, three for tragedy.
+   Each laminate is one slat. **Make sure both sides have the face out.** That works
+   because the face is symmetric about the paddle's long centreline, so turning a paddle
+   over leaves it reading the same.
 2. **Glue the five short strips into one block.** That is the handle.
 3. **Glue the handle over the engraved rectangle**, which is there to show you where. It
    is a mark, not a recess — engraving removes very little material.

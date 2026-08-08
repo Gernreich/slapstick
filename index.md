@@ -16,7 +16,7 @@ rectangle marks it.
 ## Get the files
 
 - **[Everything as a ZIP](https://github.com/Gernreich/slapstick/archive/refs/heads/main.zip)**
-  — both sheets and the two face discs.
+  — both sheets.
 - **[Repository](https://github.com/Gernreich/slapstick)** — if you want to change a face
   or the proportions.
 - Or click any picture below to download that one cut file.
@@ -117,33 +117,10 @@ each slat is, and a slapstick's whole job is to be swung hard and stopped abrupt
 **A slapstick is loud on purpose, and it is a lever.** Two slats of nearly half a metre
 clapping together will startle anyone nearby. Keep fingers clear of where the slats meet.
 
-## Also here — two face discs
-
-Two earlier 100mm discs, each a face cut clean through, unrelated to the sheets above.
-They carry no hinge, no fixing holes and no mechanism; they decorate something you build.
-
-<div class="tw">
-<table>
-<tr>
-<td align="center"><a href="SlapstickSmilyFace.svg"><img src="previews/SlapstickSmilyFace.svg" alt="A 100mm disc cut as a smiling face: two round eyes and a crescent mouth turning up" width="180"></a></td>
-<td align="center"><a href="SlapstickSadFace.svg"><img src="previews/SlapstickSadFace.svg" alt="A 100mm disc cut as a sad face: two round eyes and a crescent mouth turning down" width="180"></a></td>
-</tr>
-<tr>
-<td align="center"><sub>Smiling · 100 × 100mm</sub></td>
-<td align="center"><sub>Sad · 100 × 100mm</sub></td>
-</tr>
-</table>
-</div>
-
-Both are 100 × 100mm, with two 12mm eyes 36mm apart and a 52 × 19mm crescent mouth. The
-eyes and mouth are cut through, not engraved — they drop out as waste. The tightest spot
-is where the mouth's ends approach the rim, about 14mm of material.
-
 ## Files
 
 | | |
 |---|---|
 | `slapstick_happy.svg` · `slapstick_sad.svg` | one sheet per side — three paddles, five handle strips |
-| `SlapstickSmilyFace.svg` · `SlapstickSadFace.svg` | the two 100mm face discs |
 | `previews/` | display renderings — **not** cut files |
 | `index.md` · `index.html` | this page; the markdown is the source |

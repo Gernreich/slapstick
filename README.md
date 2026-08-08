@@ -82,18 +82,11 @@ to be swung hard and stopped abruptly.
 
 **It is loud on purpose, and it is a lever.** Keep fingers clear of where the slats meet.
 
-## Also here
-
-`SlapstickSmilyFace.svg` and `SlapstickSadFace.svg` — two earlier 100mm discs, each a face
-cut clean through, with no hinge or fixing holes. They decorate something you build,
-rather than being part of the slapstick above.
-
 ## Files
 
 | | |
 |---|---|
 | `slapstick_happy.svg` · `slapstick_sad.svg` | one sheet per side |
-| `SlapstickSmilyFace.svg` · `SlapstickSadFace.svg` | the two 100mm face discs |
 | `previews/` | display renderings — **not** cut files |
 | `index.md` · `index.html` | the published page; the markdown is the source |
 

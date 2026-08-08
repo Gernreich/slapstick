@@ -6,6 +6,8 @@ This one carries a face on each side, from the **comedy and tragedy masks**: lau
 one, weeping on the other. Output is millimetre-true — `1 user unit = 1 mm` with a
 physical `width`/`height` — so it prints and cuts at real size.
 
+**[Read the writeup](https://gernreich.github.io/slapstick/)**
+
 <table>
 <tr>
 <td align="center"><a href="slapstick_happy.svg"><img src="previews/slapstick_happy.svg" alt="The happy sheet: three long paddle blanks each engraved with a face outline and a rectangle, with eyes, a smiling mouth and three holes cut, and five short handle strips below" width="620"></a></td>
@@ -23,8 +25,6 @@ physical `width`/`height` — so it prints and cuts at real size.
 
 *One sheet per side. Click either to download it — these are display renderings, since the
 cut files draw a hairline on no background that a browser shows almost invisibly. Green, orange and cyan are darkened in the picture — at full strength they are too pale to read against a light ground. The cut file keeps the exact values.*
-
-**[Read the writeup](https://gernreich.github.io/slapstick/)**
 
 Built for **[LaserMadeMusic](https://www.youtube.com/@LaserMadeMusic)**, where the cutting
 and assembly are shown.

@@ -39,8 +39,8 @@ and assembly are shown.
 |---|---|---|---|
 | | blue `#0000ff` | face outline and glue rectangle | **engrave — never cut** |
 | 1 | green `#00ff00` | eyes and mouth | first cut |
-| 2 | cyan `#00ffff` | the three rope-hinge holes | second cut |
-| 3 | magenta `#ff00ff` | the five handle strips | third cut |
+| 2 | orange `#ff8000` | the three rope-hinge holes | second cut |
+| 3 | cyan `#00ffff` | the five handle strips | third cut |
 | 4 | black `#000000` | the three paddle outlines | last cut |
 
 Outlines last, because once a cut frees a part anything still to be cut inside it can

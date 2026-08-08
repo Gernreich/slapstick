@@ -58,13 +58,16 @@ all; the rest run first to last:
 |---|---|---|---|
 | | **blue `#0000ff`** | the face outline and the glue rectangle | **engrave — never cut** |
 | 1 | **green `#00ff00`** | eyes and mouth | first cut |
-| 2 | **cyan `#00ffff`** | the three rope-hinge holes | second cut |
-| 3 | **magenta `#ff00ff`** | the five handle strips | third cut |
+| 2 | **orange `#ff8000`** | the three rope-hinge holes | second cut |
+| 3 | **cyan `#00ffff`** | the five handle strips | third cut |
 | 4 | **black `#000000`** | the three paddle outlines | last cut |
 
-Blue is the engrave colour in every repository here and never cuts. That is worth knowing
-before you map the job: send blue to the cutter and the 50mm face circle drops out of the
-paddle.
+That whole sequence is shared: every LaserMadeMusic repository engraves in blue, then
+cuts green → orange → cyan → black, with black always the cut that frees the part and
+violet meaning skip. Learn it once and every file here reads the same way.
+
+Blue never cuts, which is worth knowing before you map the job: send blue to the cutter
+and the 50mm face circle drops out of the paddle.
 
 The outlines come last for the usual reason: once a cut frees a part, anything still to
 be cut inside it can move. Cut the small features while the blank is still held by the

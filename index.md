@@ -57,7 +57,7 @@ all; the rest run first to last:
 |---|---|---|---|
 | | **red `#ff0000`** | the face outline and the glue rectangle | **engrave — never cut** |
 | 1 | **green `#00ff00`** | eyes and mouth | first cut |
-| 2 | **blue `#0000ff`** | the three holes at the far end | second cut |
+| 2 | **blue `#0000ff`** | the three rope-hinge holes | second cut |
 | 3 | **magenta `#ff00ff`** | the five handle strips | third cut |
 | 4 | **black `#000000`** | the three paddle outlines | last cut |
 
@@ -81,7 +81,7 @@ here — 32 objects each, matching object for object:
 | Glue rectangle, engraved | 3 | 90 × 25mm, starting 294.5mm from the left end |
 | Eyes | 6 | 6mm each |
 | Mouth | 3 | 9.5 × 26mm |
-| Holes | 9 | ~5mm, 12.3mm from the right end, at 22.1 / 44.6 / 66.8mm down |
+| Rope-hinge holes | 9 | ~5mm, 12.3mm from the right end, at 22.1 / 44.6 / 66.8mm down |
 
 Both sheets are 495 × 297mm and millimetre-true — `1 user unit = 1 mm` with a physical
 `width`/`height` — so they print and cut at real size.
@@ -97,8 +97,13 @@ length. It comes upright when the slapstick is held to swing.
 3. **Glue the handle to the paddle over the engraved rectangle**, which is there to
    show you where. It starts 294.5mm along, so the handle sits toward the far end from
    the face.
-4. The three holes at the far end are cut but not used by anything in these files — how
-   the two slats join, and what passes through those holes, is yours to decide.
+4. **Lace a rope through the three holes at the far end** to join the two slats. The
+   rope is the hinge — there is no pin and no hardware. It lets the slats swing apart
+   and snap together, and it is what the holes are for.
+
+The rope is not in these files, and nor is a length or a thickness: both depend on how
+far apart you want the slats to open and what you have to hand. The holes are ~5mm, so
+that sets the ceiling.
 
 **The engraved rectangle is a mark, not a recess.** Engraving removes very little
 material, so the handle glues onto the surface rather than into a pocket.

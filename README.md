@@ -33,13 +33,13 @@ and assembly are shown.
 
 ## Colour is the cut order
 
-**Red is not a cut.** The rest run first to last:
+**Blue is not a cut.** The rest run first to last:
 
 | | Colour | What it is | When |
 |---|---|---|---|
-| | red `#ff0000` | face outline and glue rectangle | **engrave — never cut** |
+| | blue `#0000ff` | face outline and glue rectangle | **engrave — never cut** |
 | 1 | green `#00ff00` | eyes and mouth | first cut |
-| 2 | blue `#0000ff` | the three rope-hinge holes | second cut |
+| 2 | cyan `#00ffff` | the three rope-hinge holes | second cut |
 | 3 | magenta `#ff00ff` | the five handle strips | third cut |
 | 4 | black `#000000` | the three paddle outlines | last cut |
 

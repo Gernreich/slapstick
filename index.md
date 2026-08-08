@@ -51,16 +51,20 @@ invisibly. The cut-order colours are untouched.
 
 ## Colour is the cut order
 
-**Every colour needs an explicit operation, and the order matters.** Red is not a cut at
+**Every colour needs an explicit operation, and the order matters.** Blue is not a cut at
 all; the rest run first to last:
 
 | | Colour | What it is | When |
 |---|---|---|---|
-| | **red `#ff0000`** | the face outline and the glue rectangle | **engrave — never cut** |
+| | **blue `#0000ff`** | the face outline and the glue rectangle | **engrave — never cut** |
 | 1 | **green `#00ff00`** | eyes and mouth | first cut |
-| 2 | **blue `#0000ff`** | the three rope-hinge holes | second cut |
+| 2 | **cyan `#00ffff`** | the three rope-hinge holes | second cut |
 | 3 | **magenta `#ff00ff`** | the five handle strips | third cut |
 | 4 | **black `#000000`** | the three paddle outlines | last cut |
+
+Blue is the engrave colour in every repository here and never cuts. That is worth knowing
+before you map the job: send blue to the cutter and the 50mm face circle drops out of the
+paddle.
 
 The outlines come last for the usual reason: once a cut frees a part, anything still to
 be cut inside it can move. Cut the small features while the blank is still held by the

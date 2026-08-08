@@ -76,9 +76,10 @@ comes upright when the slapstick is held to swing.
 
 ## Before you cut
 
-**Material and thickness are yours, and nothing here has been validated against cut
-stock.** Three laminated layers set how stiff each slat is, and a slapstick's whole job is
-to be swung hard and stopped abruptly.
+**Cut it in 3mm Baltic birch plywood** — what this is built in. Three paddle blanks make
+a **9mm** slat and five handle strips make a **15mm** handle. A slapstick's job is to be
+swung hard and stopped abruptly, so change the stock and you change how stiff each slat
+is.
 
 **It is loud on purpose, and it is a lever.** Keep fingers clear of where the slats meet.
 

@@ -110,9 +110,10 @@ material, so the handle glues onto the surface rather than into a pocket.
 
 ## Before you cut
 
-**Material and thickness are yours, and nothing here has been validated against cut
-stock.** Thickness matters more than usual here: three laminated layers set how stiff
-each slat is, and a slapstick's whole job is to be swung hard and stopped abruptly.
+**Cut it in 3mm Baltic birch plywood.** That is what this is built in, and the laminates
+are counted for it: three paddle blanks make a **9mm** slat, and five handle strips make a
+**15mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
+thicknesses are doing real work — change the stock and you change how stiff each slat is.
 
 **A slapstick is loud on purpose, and it is a lever.** Two slats of nearly half a metre
 clapping together will startle anyone nearby. Keep fingers clear of where the slats meet.

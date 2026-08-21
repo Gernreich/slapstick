@@ -29,6 +29,9 @@ cut files draw a hairline on no background that a browser shows almost invisibly
 Built for **[LaserMadeMusic](https://www.youtube.com/@LaserMadeMusic)**, where the cutting
 and assembly are shown.
 
+**[The rest of the build files](https://gernreich.github.io/)** — every instrument,
+generator and tool, indexed.
+
 **[Download everything as a ZIP](https://github.com/Gernreich/slapstick/archive/refs/heads/main.zip)**
 
 ## Colour is the cut order

@@ -61,7 +61,7 @@ all; the rest run first to last:
 |---|---|---|---|
 | | **blue `#0000ff`** | the face outline and the glue rectangle | **engrave — never cut** |
 | 1 | **green `#00ff00`** | eyes and mouth | first cut |
-| 2 | **orange `#ff8000`** | the three rope-hinge holes | second cut |
+| 2 | **orange `#ff8000`** | the rope-hinge holes — nine, three per paddle | second cut |
 | 3 | **cyan `#00ffff`** | the five handle strips | third cut |
 | 4 | **black `#000000`** | the three paddle outlines | last cut |
 
@@ -108,7 +108,9 @@ length. It comes upright when the slapstick is held to swing.
    like. This works because the face is symmetric about the paddle's long centreline —
    the circle, the mouth and the glue rectangle sit on it, and the two eyes are at
    exactly ±9mm — so turning a paddle over leaves the face reading the same.
-2. **Glue the five short strips into one block.** That is the handle.
+2. **Glue five short strips into one block.** That is the handle, and there is only
+   one — you grip it, and the other slat is the one that swings. Each sheet carries
+   five strips, so the second sheet's five are spares.
 3. **Glue the handle to the paddle over the engraved rectangle**, which is there to
    show you where. It starts 294.5mm along, so the handle sits toward the far end from
    the face.

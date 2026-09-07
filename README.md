@@ -42,7 +42,7 @@ generator and tool, indexed.
 |---|---|---|---|
 | | blue `#0000ff` | face outline and glue rectangle | **engrave — never cut** |
 | 1 | green `#00ff00` | eyes and mouth | first cut |
-| 2 | orange `#ff8000` | the three rope-hinge holes | second cut |
+| 2 | orange `#ff8000` | the rope-hinge holes — nine, three per paddle | second cut |
 | 3 | cyan `#00ffff` | the five handle strips | third cut |
 | 4 | black `#000000` | the three paddle outlines | last cut |
 
@@ -72,7 +72,9 @@ comes upright when the slapstick is held to swing.
    Each laminate is one slat. **Make sure both sides have the face out.** That works
    because the face is symmetric about the paddle's long centreline, so turning a paddle
    over leaves it reading the same.
-2. **Glue the five short strips into one block.** That is the handle.
+2. **Glue five short strips into one block.** That is the handle, and there is only
+   one — you grip it, and the other slat is the one that swings. Each sheet carries
+   five strips, so the second sheet's five are spares.
 3. **Glue the handle over the engraved rectangle**, which is there to show you where. It
    is a mark, not a recess — engraving removes very little material.
 4. **Lace a rope through the three holes at the far end** to join the two slats. The

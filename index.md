@@ -92,7 +92,7 @@ here — 32 objects each, matching object for object:
 | Glue rectangle, engraved | 3 | 90 × 25mm, starting 294.5mm from the left end |
 | Eyes | 6 | 6mm each |
 | Mouth | 3 | 9.5 × 26mm |
-| Rope-hinge holes | 9 | ~5mm, 12.3mm from the right end, at 22.1 / 44.6 / 66.8mm down |
+| Rope-hinge holes | 9 | ~5mm, 12.3mm from the right end, at 22.4 / 44.9 / 67.4mm down |
 
 Both sheets are 495 × 297mm and millimetre-true — `1 user unit = 1 mm` with a physical
 `width`/`height` — so they print and cut at real size.
@@ -106,8 +106,9 @@ length. It comes upright when the slapstick is held to swing.
    three for tragedy. That laminate is one slat. **Make sure both sides have the face
    out**: turn the outer two so the engraving shows, and the middle one however you
    like. This works because the face is symmetric about the paddle's long centreline —
-   the circle, the mouth and the glue rectangle sit on it, and the two eyes are at
-   exactly ±9mm — so turning a paddle over leaves the face reading the same.
+   the circle, the mouth and the glue rectangle sit on it, the two eyes are at
+   exactly ±9mm, and the three rope holes at exactly ±22.5mm and 0 — so turning a
+   paddle over leaves every feature where it was.
 2. **Glue five short strips into one block.** That is the handle, and there is only
    one — you grip it, and the other slat is the one that swings. Each sheet carries
    five strips, so the second sheet's five are spares.

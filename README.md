@@ -6,6 +6,7 @@ This one carries a face on each side, from the **comedy and tragedy masks**: lau
 one, weeping on the other. Output is millimetre-true — `1 user unit = 1 mm` with a
 physical `width`/`height` — so it prints and cuts at real size.
 
+<!-- readme-only -->
 **[Read the writeup](https://gernreich.github.io/slapstick/)**
 
 <table>

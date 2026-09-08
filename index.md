@@ -1,5 +1,14 @@
 # Slapstick — comedy on one side, tragedy on the other
 
+> **This is a dangerous object. It can injure you, and it can injure anyone
+> near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
+> swung hard and stopped dead against each other. Gripped at the engraved
+> rectangle the tip travels between 2.7 and 5.6 times as fast as your hand,
+> and the gap where the slats meet closes on whatever is in it. It is loud on
+> purpose, and loud enough to startle anyone nearby. Keep fingers out of the
+> clap, keep people out of the swing, and mind ears as well as heads —
+> [Before you cut](#before-you-cut) has the rest.
+
 A slapstick is two long slats joined at one end. Swing it and the free ends clap
 together with a crack far louder than the effort suggests. It is the sound effect that
 gave stage comedy its name, and it is why a certain kind of comedy is still called

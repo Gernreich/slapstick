@@ -7,7 +7,7 @@
 > and the gap where the slats meet closes on whatever is in it. It is loud on
 > purpose, and loud enough to startle anyone nearby. Keep fingers out of the
 > clap, keep people out of the swing, and mind ears as well as heads —
-> [Before you cut](#before-you-cut) has the rest.
+> [Handle it with care](#handle-it-with-care) has the rest.
 
 A slapstick is two long slats joined at one end. Swing it and the free ends clap
 together with a crack far louder than the effort suggests. It is the sound effect that
@@ -167,8 +167,27 @@ are counted for it: three paddle blanks make a **9mm** slat, and five handle str
 **15mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
 thicknesses are doing real work — change the stock and you change how stiff each slat is.
 
-**A slapstick is loud on purpose, and it is a lever.** Two slats of nearly half a metre
-clapping together will startle anyone nearby. Keep fingers clear of where the slats meet.
+## Handle it with care
+
+**Unlike the other two, this one is not spun — it is swung and stopped.** Everything you
+put into it arrives at once, at the moment the slats meet.
+
+**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with its handle is
+about **547g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
+ten times a three-ply bullroarer, on a lever nearly half a metre long.
+
+**Speed.** The free slat turns about the rope hinge and its tip is **467mm** out. Gripped
+at the engraved rectangle the tip moves between **2.7 and 5.6 times** as fast as your
+hand, and moving your grip closer to the hinge raises that.
+
+**The clap.** Two 9mm slats close on each other along their whole length and nothing
+limits how hard. Whatever is in the gap is in a lever's jaws, and fingers are the obvious
+candidate.
+
+So: **keep fingers out of the clap and people out of the swing.** It is loud on purpose —
+that is the instrument, not a side effect — so mind ears as well as heads, including your
+own at arm's length. Check the rope and its knots before each session: the hinge is the
+only thing holding the free slat on.
 
 ## Files
 

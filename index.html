@@ -36,6 +36,9 @@ h3{font-size:1.02rem;font-weight:650;margin:1.7em 0 .45em}
 p{margin:.85em 0}
 ul,ol{margin:.85em 0;padding-left:1.35em}
 li{margin:.3em 0}
+/* A list with blank lines between its items is "loose", and pandoc wraps each item
+   in a <p> as GitHub does. These pages were set tight before pandoc, so they stay so. */
+li>p{margin:0}
 hr{border:0;border-top:1px solid var(--line);margin:2.6em 0}
 figure{margin:1.6em 0}
 /* A paragraph holding two or more images is a gallery. Left to inline layout they
@@ -95,12 +98,18 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <main>
 <h1 id="slapstick--comedy-on-one-side-tragedy-on-the-other">Slapstick — comedy on one side, tragedy on the other</h1>
 <p><strong><a href="https://github.com/Gernreich/slapstick">Read the README</a></strong></p>
-<blockquote><p><strong>This is a dangerous object. It can injure you, and it can injure anyone near you.</strong> A slapstick is a lever nearly half a metre long: two 9mm slats swung hard and stopped dead against each other. Gripped at the engraved rectangle the tip travels between 2.7 and 5.6 times as fast as your hand, and the gap where the slats meet closes on whatever is in it. It is loud on purpose, and loud enough to startle anyone nearby. Keep fingers out of the clap, keep people out of the swing, and mind ears as well as heads — <a href="#handle-it-with-care">Handle it with care</a> has the rest.</p></blockquote>
+<blockquote>
+<p><strong>This is a dangerous object. It can injure you, and it can injure anyone near you.</strong> A slapstick is a lever nearly half a metre long: two 9mm slats swung hard and stopped dead against each other. Gripped at the engraved rectangle the tip travels between 2.7 and 5.6 times as fast as your hand, and the gap where the slats meet closes on whatever is in it. It is loud on purpose, and loud enough to startle anyone nearby. Keep fingers out of the clap, keep people out of the swing, and mind ears as well as heads — <a href="#handle-it-with-care">Handle it with care</a> has the rest.</p>
+</blockquote>
 <p>A slapstick is two long slats joined at one end. Swing it and the free ends clap together with a crack far louder than the effort suggests. It is the sound effect that gave stage comedy its name, and it is why a certain kind of comedy is still called slapstick.</p>
 <p>This one carries a face on each side, taken from the <strong>comedy and tragedy masks</strong> of the theatre: laughing on one, weeping on the other. Which way round it lands when you swing it is the joke.</p>
 <p>Each side is a laminate: <strong>three paddles are glued one on top of the other, making sure that both sides have the face out</strong>, which will work because of the horizontal symmetry. The handle is built the same way, from the short strips, then glued to the paddle where the engraved rectangle marks it.</p>
 <h2 id="get-the-files">Get the files</h2>
-<ul><li><strong><a href="https://github.com/Gernreich/slapstick/archive/refs/heads/main.zip">Everything as a ZIP</a></strong> — both sheets.</li><li><strong><a href="https://github.com/Gernreich/slapstick">Repository</a></strong> — if you want to change a face or the proportions.</li><li>Or click any picture below to download that one cut file.</li></ul>
+<ul>
+<li><strong><a href="https://github.com/Gernreich/slapstick/archive/refs/heads/main.zip">Everything as a ZIP</a></strong> — both sheets.</li>
+<li><strong><a href="https://github.com/Gernreich/slapstick">Repository</a></strong> — if you want to change a face or the proportions.</li>
+<li>Or click any picture below to download that one cut file.</li>
+</ul>
 <p>Released under CC0 1.0 — do what you like with them, no attribution needed. Built for <strong><a href="https://www.youtube.com/@LaserMadeMusic">LaserMadeMusic</a></strong>.</p>
 <p><strong><a href="https://gernreich.github.io/">The rest of the build files</a></strong> — every instrument, generator and tool, indexed.</p>
 <h2 id="the-two-sheets">The two sheets</h2>
@@ -121,26 +130,145 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 </tr>
 </table>
 </div>
+
 <h2 id="colour-is-the-cut-order">Colour is the cut order</h2>
 <p><strong>Every colour needs an explicit operation, and the order matters.</strong> Blue is not a cut at all; the rest run first to last:</p>
-<div class='tw'><table><thead><tr><th></th><th>Colour</th><th>What it is</th><th>When</th></tr></thead><tbody><tr><td></td><td><strong>blue <code>#0000ff</code></strong></td><td>the face outline and the glue rectangle</td><td><strong>engrave — never cut</strong></td></tr><tr><td>1</td><td><strong>green <code>#00ff00</code></strong></td><td>eyes and mouth</td><td>first cut</td></tr><tr><td>2</td><td><strong>orange <code>#ff8000</code></strong></td><td>the rope-hinge holes — nine, three per paddle</td><td>second cut</td></tr><tr><td>3</td><td><strong>cyan <code>#00ffff</code></strong></td><td>the five handle strips</td><td>third cut</td></tr><tr><td>4</td><td><strong>black <code>#000000</code></strong></td><td>the three paddle outlines</td><td>last cut</td></tr></tbody></table></div>
+<div class="tw">
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Colour</th>
+<th>What it is</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td><strong>blue <code>#0000ff</code></strong></td>
+<td>the face outline and the glue rectangle</td>
+<td><strong>engrave — never cut</strong></td>
+</tr>
+<tr>
+<td>1</td>
+<td><strong>green <code>#00ff00</code></strong></td>
+<td>eyes and mouth</td>
+<td>first cut</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>orange <code>#ff8000</code></strong></td>
+<td>the rope-hinge holes — nine, three per paddle</td>
+<td>second cut</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>cyan <code>#00ffff</code></strong></td>
+<td>the five handle strips</td>
+<td>third cut</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>black <code>#000000</code></strong></td>
+<td>the three paddle outlines</td>
+<td>last cut</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>That whole sequence is shared: every LaserMadeMusic repository engraves in blue, then cuts green → orange → cyan → black, with black always the cut that frees the part and violet meaning skip. Learn it once and every file here reads the same way.</p>
 <p>Blue never cuts, which is worth knowing before you map the job: send blue to the cutter and the 50mm face circle drops out of the paddle.</p>
 <p>The outlines come last for the usual reason: once a cut frees a part, anything still to be cut inside it can move. Cut the small features while the blank is still held by the sheet.</p>
 <p>A per-colour job <strong>silently skips any colour you leave unmapped</strong>. Leave black unmapped and you will engrave two faces and cut no paddles.</p>
 <h2 id="what-is-on-each-sheet">What is on each sheet</h2>
 <p>Measured out of the files, not copied from whatever drew them. Both sheets are identical here — 32 objects each, matching object for object:</p>
-<div class='tw'><table><thead><tr><th>Part</th><th>Count</th><th>Size</th></tr></thead><tbody><tr><td>Paddle blank</td><td>3</td><td>479.7 × 89.7mm</td></tr><tr><td>Handle strip</td><td>5</td><td>90 × 25mm</td></tr><tr><td>Face outline, engraved</td><td>3</td><td>50mm circle, centred 56.7mm from the left end</td></tr><tr><td>Glue rectangle, engraved</td><td>3</td><td>90 × 25mm, starting 294.5mm from the left end</td></tr><tr><td>Eyes</td><td>6</td><td>6mm each</td></tr><tr><td>Mouth</td><td>3</td><td>9.5 × 26mm</td></tr><tr><td>Rope-hinge holes</td><td>9</td><td>~5mm, 12.3mm from the right end, at 22.4 / 44.9 / 67.4mm down</td></tr></tbody></table></div>
+<div class="tw">
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Count</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paddle blank</td>
+<td>3</td>
+<td>479.7 × 89.7mm</td>
+</tr>
+<tr>
+<td>Handle strip</td>
+<td>5</td>
+<td>90 × 25mm</td>
+</tr>
+<tr>
+<td>Face outline, engraved</td>
+<td>3</td>
+<td>50mm circle, centred 56.7mm from the left end</td>
+</tr>
+<tr>
+<td>Glue rectangle, engraved</td>
+<td>3</td>
+<td>90 × 25mm, starting 294.5mm from the left end</td>
+</tr>
+<tr>
+<td>Eyes</td>
+<td>6</td>
+<td>6mm each</td>
+</tr>
+<tr>
+<td>Mouth</td>
+<td>3</td>
+<td>9.5 × 26mm</td>
+</tr>
+<tr>
+<td>Rope-hinge holes</td>
+<td>9</td>
+<td>~5mm, 12.3mm from the right end, at 22.4 / 44.9 / 67.4mm down</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>Both sheets are 495 × 297mm and millimetre-true — <code>1 user unit = 1 mm</code> with a physical <code>width</code>/<code>height</code> — so they print and cut at real size.</p>
 <p>Note the face reads sideways on the sheet, because the paddle is laid out along its length. It comes upright when the slapstick is held to swing.</p>
 <h2 id="building-it">Building it</h2>
-<ol><li><strong>Glue three paddles one on top of the other</strong>, once per sheet — three for comedy, three for tragedy. That laminate is one slat. <strong>Make sure both sides have the face out</strong>: turn the outer two so the engraving shows, and the middle one however you like. This works because the face is symmetric about the paddle's long centreline — the circle, the mouth and the glue rectangle sit on it, the two eyes are at exactly ±9mm, and the three rope holes at exactly ±22.5mm and 0 — so turning a paddle over leaves every feature where it was.</li><li><strong>Glue five short strips into one block.</strong> That is the handle, and there is only one — you grip it, and the other slat is the one that swings. Each sheet carries five strips, so the second sheet's five are spares.</li><li><strong>Glue the handle to the paddle over the engraved rectangle</strong>, which is there to show you where. It starts 294.5mm along, so the handle sits toward the far end from the face.</li><li><strong>Lace a rope through the three holes at the far end</strong> to join the two slats. The rope is the hinge — there is no pin and no hardware. It lets the slats swing apart and snap together, and it is what the holes are for.</li></ol>
+<ol type="1">
+<li><strong>Glue three paddles one on top of the other</strong>, once per sheet — three for comedy, three for tragedy. That laminate is one slat. <strong>Make sure both sides have the face out</strong>: turn the outer two so the engraving shows, and the middle one however you like. This works because the face is symmetric about the paddle's long centreline — the circle, the mouth and the glue rectangle sit on it, the two eyes are at exactly ±9mm, and the three rope holes at exactly ±22.5mm and 0 — so turning a paddle over leaves every feature where it was.</li>
+<li><strong>Glue five short strips into one block.</strong> That is the handle, and there is only one — you grip it, and the other slat is the one that swings. Each sheet carries five strips, so the second sheet's five are spares.</li>
+<li><strong>Glue the handle to the paddle over the engraved rectangle</strong>, which is there to show you where. It starts 294.5mm along, so the handle sits toward the far end from the face.</li>
+<li><strong>Lace a rope through the three holes at the far end</strong> to join the two slats. The rope is the hinge — there is no pin and no hardware. It lets the slats swing apart and snap together, and it is what the holes are for.</li>
+</ol>
 <p>The rope is not in these files, and nor is a length or a thickness: both depend on how far apart you want the slats to open and what you have to hand. The holes are ~5mm, so that sets the ceiling.</p>
 <p><strong>The engraved rectangle is a mark, not a recess.</strong> Engraving removes very little material, so the handle glues onto the surface rather than into a pocket.</p>
 <h3 id="where-the-handle-sits-decides-how-fast-the-slats-meet">Where the handle sits decides how fast the slats meet</h3>
 <p>The free slat turns about the rope hinge, so the whole thing is a lever. Rotating your grip through a small angle swings the tip through the same angle at a much longer radius, and the ratio is simply <strong>tip distance ÷ grip distance</strong>, both measured from the hinge. Move the grip closer to the hinge and the tip moves faster for the same hand motion.</p>
 <p>Measured off the sheet, from the hinge line: the tip is <strong>467mm</strong> away and the engraved handle footprint runs from <strong>83mm</strong> to <strong>173mm</strong>.</p>
-<div class='tw'><table><thead><tr><th>Grip, from the hinge</th><th>Tip moves</th></tr></thead><tbody><tr><td>83mm — handle edge nearest the hinge</td><td><strong>5.6×</strong> as fast as your hand</td></tr><tr><td>128mm — centre of the engraved rectangle</td><td><strong>3.6×</strong></td></tr><tr><td>173mm — handle edge furthest from the hinge</td><td><strong>2.7×</strong></td></tr></tbody></table></div>
+<div class="tw">
+<table>
+<thead>
+<tr>
+<th>Grip, from the hinge</th>
+<th>Tip moves</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>83mm — handle edge nearest the hinge</td>
+<td><strong>5.6×</strong> as fast as your hand</td>
+</tr>
+<tr>
+<td>128mm — centre of the engraved rectangle</td>
+<td><strong>3.6×</strong></td>
+</tr>
+<tr>
+<td>173mm — handle edge furthest from the hinge</td>
+<td><strong>2.7×</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
 <p><strong>You can test this without re-cutting anything.</strong> The handle is 90mm long, so sliding your hand from one end of it to the other already spans 5.6× down to 2.7× — a factor of two in tip speed, on the slapstick as drawn.</p>
 <p>If you want more than that, move the engraved rectangle closer to the hinge before cutting. Two things push back: the same lever that multiplies speed divides force, so a closer grip needs a harder pull for the same swing, and it gets twitchier to aim. The handle also has to clear the rope and still fit a hand — 90mm of it.</p>
 <h2 id="before-you-cut">Before you cut</h2>
@@ -152,7 +280,24 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <p><strong>The clap.</strong> Two 9mm slats close on each other along their whole length and nothing limits how hard. Whatever is in the gap is in a lever's jaws, and fingers are the obvious candidate.</p>
 <p>So: <strong>keep fingers out of the clap and people out of the swing.</strong> It is loud on purpose — that is the instrument, not a side effect — so mind ears as well as heads, including your own at arm's length. Check the rope and its knots before each session: the hinge is the only thing holding the free slat on.</p>
 <h2 id="files">Files</h2>
-<div class='tw'><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><code>slapstick_happy.svg</code> · <code>slapstick_sad.svg</code></td><td>one sheet per side — three paddles, five handle strips</td></tr><tr><td><code>previews/</code></td><td>display renderings — <strong>not</strong> cut files</td></tr><tr><td><code>index.md</code> · <code>index.html</code></td><td>this page; the markdown is the source</td></tr></tbody></table></div>
+<div class="tw">
+<table>
+<tbody>
+<tr>
+<td><code>slapstick_happy.svg</code> · <code>slapstick_sad.svg</code></td>
+<td>one sheet per side — three paddles, five handle strips</td>
+</tr>
+<tr>
+<td><code>previews/</code></td>
+<td>display renderings — <strong>not</strong> cut files</td>
+</tr>
+<tr>
+<td><code>index.md</code> · <code>index.html</code></td>
+<td>this page; the markdown is the source</td>
+</tr>
+</tbody>
+</table>
+</div>
 </main>
 </div>
 <script>

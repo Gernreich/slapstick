@@ -1,5 +1,7 @@
 # Slapstick
 
+**[Read the writeup](https://gernreich.github.io/slapstick/)**
+
 > **This is a dangerous object. It can injure you, and it can injure anyone
 > near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
 > swung hard and stopped dead against each other. Gripped at the engraved
@@ -14,8 +16,6 @@ far louder than the effort suggests — the sound effect that gave stage comedy 
 This one carries a face on each side, from the **comedy and tragedy masks**: laughing on
 one, weeping on the other. Output is millimetre-true — `1 user unit = 1 mm` with a
 physical `width`/`height` — so it prints and cuts at real size.
-
-**[Read the writeup](https://gernreich.github.io/slapstick/)**
 
 <table>
 <tr>

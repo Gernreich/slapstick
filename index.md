@@ -1,5 +1,7 @@
 # Slapstick — comedy on one side, tragedy on the other
 
+**[Read the README](https://github.com/Gernreich/slapstick)**
+
 > **This is a dangerous object. It can injure you, and it can injure anyone
 > near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
 > swung hard and stopped dead against each other. Gripped at the engraved

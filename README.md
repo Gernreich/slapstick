@@ -19,13 +19,13 @@ physical `width`/`height` — so it prints and cuts at real size.
 
 <table>
 <tr>
-<td align="center"><a href="slapstick_happy.svg"><img src="previews/slapstick_happy.svg" alt="The happy sheet: three long paddle blanks each engraved with a face outline and a rectangle, with eyes, a smiling mouth and three holes cut, and five short handle strips below" width="620"></a></td>
+<td align="center"><a href="slapstick_happy.svg"><img src="previews/slapstick_happy.svg" alt="The happy sheet: three long paddle blanks each engraved with a face outline and a rectangle, with eyes, a smiling mouth and three holes cut, and five short handle strips below" width="100%"></a></td>
 </tr>
 <tr>
 <td align="center"><sub>slapstick_happy.svg · comedy · 495 × 297mm</sub></td>
 </tr>
 <tr>
-<td align="center"><a href="slapstick_sad.svg"><img src="previews/slapstick_sad.svg" alt="The sad sheet: the same parts, with the mouth curving the other way" width="620"></a></td>
+<td align="center"><a href="slapstick_sad.svg"><img src="previews/slapstick_sad.svg" alt="The sad sheet: the same parts, with the mouth curving the other way" width="100%"></a></td>
 </tr>
 <tr>
 <td align="center"><sub>slapstick_sad.svg · tragedy · 495 × 297mm</sub></td>

@@ -2,6 +2,8 @@
 
 **[Read the writeup](https://gernreich.github.io/slapstick/)**
 
+**[Turn it in 3D](https://gernreich.github.io/slapstick/slapstick-3d.html)**
+
 > **This is a dangerous object. It can injure you, and it can injure anyone
 > near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
 > swung hard and stopped dead against each other. Gripped at the engraved
@@ -132,6 +134,9 @@ only thing holding the free slat on.
 |---|---|
 | `slapstick_happy.svg` · `slapstick_sad.svg` | one sheet per side |
 | `previews/` | display renderings — **not** cut files |
+| `slapstick-3d.html` | the 3D view, assembled from the cut files — drag to turn |
+| `viewer.py` | builds `slapstick-3d.html` from the cut files, with the turn3d module in lasermade-tools |
+| `.repro` | how every shipped drawing and page is reproduced |
 | `index.md` · `index.html` | the published page; the markdown is the source |
 
 Released under [CC0 1.0](LICENSE).

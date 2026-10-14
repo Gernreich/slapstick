@@ -86,8 +86,9 @@ comes upright when the slapstick is held to swing.
 2. **Glue four short strips into a block, twice.** Each slat gets a handle of its
    own, 12mm thick. Each sheet carries five strips, so one from each sheet is a
    spare.
-3. **Glue each handle over the engraved rectangle on its slat's outer face**, which is there to show you where. It
-   is a mark, not a recess — engraving removes very little material.
+3. **Glue each handle over the engraved rectangle on its slat's outer face**, which is
+   there to show you where. It is a mark, not a recess — engraving removes very little
+   material.
 4. **Lace a rope through the three holes at the far end** to join the two slats. The
    rope is the hinge — no pin, no hardware. Length and thickness are yours; the holes
    are ~5mm, which sets the ceiling.

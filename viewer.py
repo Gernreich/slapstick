@@ -6,9 +6,9 @@
 The parts are the cut files' own outlines, read by lasermade-tools/turn3d.py.
 This file is only where they go, as the README's "Building it" lays them out:
 three happy paddles glued into the comedy slat, three sad ones into the
-tragedy slat, five strips glued into one handle block over the engraved
-rectangle on the comedy slat's outer face, and a rope laced through the three
-holes at the far end as the hinge. The tragedy slat is drawn a few degrees
+tragedy slat, four strips glued into a handle block over the engraved rectangle
+on each slat's outer face, and a rope laced through the three holes at the far
+end as the hinge. Each sheet's fifth strip is a spare. The tragedy slat is drawn a few degrees
 open, the way it hangs before the swing closes it.
 """
 import math
@@ -33,7 +33,7 @@ def sheet(name):
 
 def build():
     happy, strips = sheet('slapstick_happy.svg')
-    sad, _ = sheet('slapstick_sad.svg')        # its five strips are the spares
+    sad, strips2 = sheet('slapstick_sad.svg')  # four strips a handle; the fifth on each sheet is a spare
     x0, y0, x1, y1 = happy[0]['box']
     cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
     # the hinge: the three holes at the far end, measured off the paddle
@@ -47,12 +47,14 @@ def build():
     hinge = t.chain(t.T(hx, 0, 3 * TH), t.Ry(OPEN), t.T(-hx, 0, -3 * TH))
     for k, p in enumerate(sad):                         # the tragedy slat, face up and out
         out.append(t.placed(t.centred(p), t.chain(hinge, t.T(0, 0, (3 + k) * TH)), (0, 0, 0.6 + 0.25 * k)))
-    # the handle, over the engraved rectangle on the comedy slat's outer face
+    # a handle on each slat, over the engraved rectangle on its outer face
     rect = min(happy[0]['e'], key=lambda e: len(e))
     rx = (min(q[0] for q in rect) + max(q[0] for q in rect)) / 2 - cx
     ry = (min(q[1] for q in rect) + max(q[1] for q in rect)) / 2 - cy
-    for k, s in enumerate(strips):
+    for k, s in enumerate(strips[:4]):
         out.append(t.placed(t.centred(s), t.T(rx, ry, -(k + 1) * TH), (0, 0, -1.6 - 0.3 * k), 'dark'))
+    for k, s in enumerate(strips2[:4]):
+        out.append(t.placed(t.centred(s), t.chain(hinge, t.T(rx, ry, (6 + k) * TH)), (0, 0, 1.6 + 0.3 * k), 'dark'))
     # the rope: laced up and down through the three holes, and tied off
     zb, zt = -2, 6 * TH + 2
     tip = lambda z: (hx + math.sin(OPEN) * (z - 3 * TH), z)   # the open slat's holes lean with it
@@ -74,8 +76,8 @@ def main(argv):
     t.write(path, 'Slapstick', build(),
             'Drag to turn, scroll or pinch to zoom; draw Explode to take it apart. Every part is the cut '
             'files’ own outline at 3mm: three happy paddles glued into the comedy slat underneath, '
-            'three sad ones into the tragedy slat above, drawn a few degrees open, and the five-strip '
-            'handle block, darker, on the comedy slat’s outer face over its engraved rectangle. The '
+            'three sad ones into the tragedy slat above, drawn a few degrees open, and a four-strip '
+            'handle block, darker, on each slat’s outer face over its engraved rectangle. The '
             'red cord is the rope hinge laced through the three holes at the far end; its length and '
             'lacing are yours, and this is one way.', 'slapstick/viewer.py')
     print(f'  wrote {os.path.relpath(path)}')

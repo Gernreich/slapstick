@@ -83,10 +83,10 @@ comes upright when the slapstick is held to swing.
    Each laminate is one slat. **Make sure both sides have the face out.** That works
    because the face is symmetric about the paddle's long centreline, so turning a paddle
    over leaves it reading the same.
-2. **Glue five short strips into one block.** That is the handle, and there is only
-   one — you grip it, and the other slat is the one that swings. Each sheet carries
-   five strips, so the second sheet's five are spares.
-3. **Glue the handle over the engraved rectangle**, which is there to show you where. It
+2. **Glue four short strips into a block, twice.** Each slat gets a handle of its
+   own, 12mm thick. Each sheet carries five strips, so one from each sheet is a
+   spare.
+3. **Glue each handle over the engraved rectangle on its slat's outer face**, which is there to show you where. It
    is a mark, not a recess — engraving removes very little material.
 4. **Lace a rope through the three holes at the far end** to join the two slats. The
    rope is the hinge — no pin, no hardware. Length and thickness are yours; the holes
@@ -102,7 +102,7 @@ at the cost of needing a harder pull and being twitchier to aim.
 ## Before you cut
 
 **Cut it in 3mm Baltic birch plywood** — what this is built in. Three paddle blanks make
-a **9mm** slat and five handle strips make a **15mm** handle. A slapstick's job is to be
+a **9mm** slat and four handle strips make each slat's **12mm** handle. A slapstick's job is to be
 swung hard and stopped abruptly, so change the stock and you change how stiff each slat
 is.
 
@@ -111,8 +111,8 @@ is.
 **Unlike the other two, this one is not spun — it is swung and stopped.** Everything you
 put into it arrives at once, at the moment the slats meet.
 
-**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with its handle is
-about **547g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
+**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with their handles is
+about **561g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
 ten times a three-ply bullroarer, on a lever nearly half a metre long.
 
 **Speed.** The free slat turns about the rope hinge and its tip is **467mm** out. Gripped

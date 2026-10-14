@@ -24,8 +24,8 @@ it is the joke.
 
 Each side is a laminate: **three paddles are glued one on top of the other, making sure
 that both sides have the face out**, which will work because of the horizontal symmetry.
-The handle is built the same way, from the short strips, then glued to the paddle where
-the engraved rectangle marks it.
+Each slat's handle is built the same way, from four of the short strips, then glued to
+its outer face where the engraved rectangle marks it.
 
 ## Get the files
 
@@ -122,10 +122,10 @@ length. It comes upright when the slapstick is held to swing.
    the circle, the mouth and the glue rectangle sit on it, the two eyes are at
    exactly ±9mm, and the three rope holes at exactly ±22.5mm and 0 — so turning a
    paddle over leaves every feature where it was.
-2. **Glue five short strips into one block.** That is the handle, and there is only
-   one — you grip it, and the other slat is the one that swings. Each sheet carries
-   five strips, so the second sheet's five are spares.
-3. **Glue the handle to the paddle over the engraved rectangle**, which is there to
+2. **Glue four short strips into a block, twice.** Each slat gets a handle of its
+   own, 12mm thick. Each sheet carries five strips, so one from each sheet is a
+   spare.
+3. **Glue each handle to its slat's outer face over the engraved rectangle**, which is there to
    show you where. It starts 294.5mm along, so the handle sits toward the far end from
    the face.
 4. **Lace a rope through the three holes at the far end** to join the two slats. The
@@ -167,8 +167,8 @@ handle also has to clear the rope and still fit a hand — 90mm of it.
 ## Before you cut
 
 **Cut it in 3mm Baltic birch plywood.** That is what this is built in, and the laminations
-are counted for it: three paddle blanks make a **9mm** slat, and five handle strips make a
-**15mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
+are counted for it: three paddle blanks make a **9mm** slat, and four handle strips make each slat's
+**12mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
 thicknesses are doing real work — change the stock and you change how stiff each slat is.
 
 ## Handle it with care
@@ -176,8 +176,8 @@ thicknesses are doing real work — change the stock and you change how stiff ea
 **Unlike the other two, this one is not spun — it is swung and stopped.** Everything you
 put into it arrives at once, at the moment the slats meet.
 
-**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with its handle is
-about **547g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
+**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with their handles is
+about **561g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
 ten times a three-ply bullroarer, on a lever nearly half a metre long.
 
 **Speed.** The free slat turns about the rope hinge and its tip is **467mm** out. Gripped

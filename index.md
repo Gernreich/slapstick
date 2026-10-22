@@ -1,5 +1,7 @@
 # Slapstick — comedy on one side, tragedy on the other
 
+**[← All projects](https://gernreich.github.io/)**
+
 **[Read the README](https://github.com/Gernreich/slapstick)**
 
 **[Turn it in 3D](https://gernreich.github.io/slapstick/slapstick-3d.html)**
@@ -38,7 +40,7 @@ its outer face where the engraved rectangle marks it.
 Released under CC0 1.0 — do what you like with them, no attribution needed. Built for
 **[LaserMadeMusic](https://www.youtube.com/@LaserMadeMusic)**.
 
-**[The rest of the build files](https://gernreich.github.io/)** — every instrument,
+**[The rest of the build files](https://gernreich.github.io/lasermademusic.html)** — every instrument,
 generator and tool, indexed.
 
 ## The two sheets

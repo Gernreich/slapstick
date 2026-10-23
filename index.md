@@ -6,6 +6,8 @@
 
 **[Turn it in 3D](https://gernreich.github.io/slapstick/slapstick-3d.html)**
 
+<iframe src="slapstick-3d.html" title="The slapstick as solid parts you can drag to turn and pull apart: two slats with their paddles glued in, drawn a few degrees open, and a darker handle block on each" style="width:100%;height:560px;border:0"></iframe>
+
 > **This is a dangerous object. It can injure you, and it can injure anyone
 > near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
 > swung hard and stopped dead against each other. Gripped at the engraved

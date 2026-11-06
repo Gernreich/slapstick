@@ -7,7 +7,7 @@
 **[Turn it in 3D](https://gernreich.github.io/slapstick/slapstick-3d.html)**
 
 > **This is a dangerous object. It can injure you, and it can injure anyone
-> near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
+> near you.** A slapstick is a lever nearly half a metre long: two 9 mm slats
 > swung hard and stopped dead against each other. Gripped at the engraved
 > rectangle the tip travels between 2.7 and 5.6 times as fast as your hand,
 > and the gap where the slats meet closes on whatever is in it. It is loud on
@@ -26,13 +26,13 @@ physical `width`/`height` — so it prints and cuts at real size.
 <td align="center"><a href="slapstick_happy.svg"><img src="previews/slapstick_happy.svg" alt="The happy sheet: three long paddle blanks each engraved with a face outline and a rectangle, with eyes, a smiling mouth and three holes cut, and five short handle strips below" width="100%"></a></td>
 </tr>
 <tr>
-<td align="center"><sub>slapstick_happy.svg · comedy · 495 × 297mm</sub></td>
+<td align="center"><sub>slapstick_happy.svg · comedy · 495 × 297 mm</sub></td>
 </tr>
 <tr>
 <td align="center"><a href="slapstick_sad.svg"><img src="previews/slapstick_sad.svg" alt="The sad sheet: the same parts, with the mouth curving the other way" width="100%"></a></td>
 </tr>
 <tr>
-<td align="center"><sub>slapstick_sad.svg · tragedy · 495 × 297mm</sub></td>
+<td align="center"><sub>slapstick_sad.svg · tragedy · 495 × 297 mm</sub></td>
 </tr>
 </table>
 
@@ -68,13 +68,13 @@ Measured out of the files. Both sheets are identical here — 32 objects each:
 
 | Part | Count | Size |
 |---|---|---|
-| Paddle blank | 3 | 479.7 × 89.7mm |
-| Handle strip | 5 | 90 × 25mm |
-| Face outline, engraved | 3 | 50mm circle, centred 56.7mm from the left end |
-| Glue rectangle, engraved | 3 | 90 × 25mm, starting 294.5mm from the left end |
-| Eyes | 6 | 6mm each |
-| Mouth | 3 | 9.5 × 26mm |
-| Rope-hinge holes | 9 | ~5mm, 12.3mm from the right end |
+| Paddle blank | 3 | 479.7 × 89.7 mm |
+| Handle strip | 5 | 90 × 25 mm |
+| Face outline, engraved | 3 | 50 mm circle, centred 56.7 mm from the left end |
+| Glue rectangle, engraved | 3 | 90 × 25 mm, starting 294.5 mm from the left end |
+| Eyes | 6 | 6 mm each |
+| Mouth | 3 | 9.5 × 26 mm |
+| Rope-hinge holes | 9 | ~5 mm, 12.3 mm from the right end |
 
 The face reads sideways on the sheet because the paddle is laid out along its length; it
 comes upright when the slapstick is held to swing.
@@ -86,26 +86,26 @@ comes upright when the slapstick is held to swing.
    because the face is symmetric about the paddle's long centreline, so turning a paddle
    over leaves it reading the same.
 2. **Glue four short strips into a block, twice.** Each slat gets a handle of its
-   own, 12mm thick. Each sheet carries five strips, so one from each sheet is a
+   own, 12 mm thick. Each sheet carries five strips, so one from each sheet is a
    spare.
 3. **Glue each handle over the engraved rectangle on its slat's outer face**, which is
    there to show you where. It is a mark, not a recess — engraving removes very little
    material.
 4. **Lace a rope through the three holes at the far end** to join the two slats. The
    rope is the hinge — no pin, no hardware. Length and thickness are yours; the holes
-   are ~5mm, which sets the ceiling.
+   are ~5 mm, which sets the ceiling.
 
 **Where the handle sits decides how fast the slats meet.** The free slat turns about the
-hinge, so the ratio is tip distance ÷ grip distance. From the hinge, the tip is 467mm and
-the engraved handle runs 83–173mm — so the tip moves **5.6× to 2.7×** your hand speed
-depending where you hold it. Sliding your hand along the existing 90mm handle already
+hinge, so the ratio is tip distance ÷ grip distance. From the hinge, the tip is 467 mm and
+the engraved handle runs 83–173 mm — so the tip moves **5.6× to 2.7×** your hand speed
+depending where you hold it. Sliding your hand along the existing 90 mm handle already
 spans a factor of two; moving the rectangle closer to the hinge before cutting buys more,
 at the cost of needing a harder pull and being twitchier to aim.
 
 ## Before you cut
 
-**Cut it in 3mm Baltic birch plywood** — what this is built in. Three paddle blanks make
-a **9mm** slat and four handle strips make each slat's **12mm** handle. A slapstick's job is to be
+**Cut it in 3 mm Baltic birch plywood** — what this is built in. Three paddle blanks make
+a **9 mm** slat and four handle strips make each slat's **12 mm** handle. A slapstick's job is to be
 swung hard and stopped abruptly, so change the stock and you change how stiff each slat
 is.
 
@@ -114,15 +114,15 @@ is.
 **Unlike the other two, this one is not spun — it is swung and stopped.** Everything you
 put into it arrives at once, at the moment the slats meet.
 
-**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with their handles is
+**Mass.** A slat is three 3 mm blanks laminated: **262g**, and the pair with their handles is
 about **561g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
 ten times a three-ply bullroarer, on a lever nearly half a metre long.
 
-**Speed.** The free slat turns about the rope hinge and its tip is **467mm** out. Gripped
+**Speed.** The free slat turns about the rope hinge and its tip is **467 mm** out. Gripped
 at the engraved rectangle the tip moves between **2.7 and 5.6 times** as fast as your
 hand, and moving your grip closer to the hinge raises that.
 
-**The clap.** Two 9mm slats close on each other along their whole length and nothing
+**The clap.** Two 9 mm slats close on each other along their whole length and nothing
 limits how hard. Whatever is in the gap is in a lever's jaws, and fingers are the obvious
 candidate.
 

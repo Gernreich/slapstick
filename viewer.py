@@ -77,7 +77,7 @@ def main(argv):
             'Drag to turn; right-drag, shift-drag or move two fingers to slide the view; '
             'scroll or pinch to zoom in on whatever is under the pointer; double-click a part '
             'to turn round it, and Reset view to go back. Draw Explode to take it apart. Every part is the cut '
-            'files’ own outline at 3mm: three happy paddles glued into the comedy slat underneath, '
+            'files’ own outline at 3 mm: three happy paddles glued into the comedy slat underneath, '
             'three sad ones into the tragedy slat above, drawn a few degrees open, and a four-strip '
             'handle block, darker, on each slat’s outer face over its engraved rectangle. The '
             'red cord is the rope hinge laced through the three holes at the far end; its length and '

@@ -9,7 +9,7 @@
 <iframe src="slapstick-3d.html?embed" title="The slapstick as solid parts you can drag to turn and pull apart: two slats with their paddles glued in, drawn a few degrees open, and a darker handle block on each" style="width:100%;height:560px;border:0"></iframe>
 
 > **This is a dangerous object. It can injure you, and it can injure anyone
-> near you.** A slapstick is a lever nearly half a metre long: two 9mm slats
+> near you.** A slapstick is a lever nearly half a metre long: two 9 mm slats
 > swung hard and stopped dead against each other. Gripped at the engraved
 > rectangle the tip travels between 2.7 and 5.6 times as fast as your hand,
 > and the gap where the slats meet closes on whatever is in it. It is loud on
@@ -58,13 +58,13 @@ invisibly. Geometry and sheet position are untouched. The three lightest cut-ord
 <td align="center"><a href="slapstick_happy.svg"><img src="previews/slapstick_happy.svg" alt="The happy sheet: three long paddle blanks each engraved with a round face outline and a rectangle, with eyes, a smiling mouth and three small holes cut, and five short handle strips below" width="100%"></a></td>
 </tr>
 <tr>
-<td align="center"><sub>slapstick_happy.svg · comedy · 495 × 297mm sheet</sub></td>
+<td align="center"><sub>slapstick_happy.svg · comedy · 495 × 297 mm sheet</sub></td>
 </tr>
 <tr>
 <td align="center"><a href="slapstick_sad.svg"><img src="previews/slapstick_sad.svg" alt="The sad sheet: the same three paddle blanks and five handle strips, with the mouth curving the other way" width="100%"></a></td>
 </tr>
 <tr>
-<td align="center"><sub>slapstick_sad.svg · tragedy · 495 × 297mm sheet</sub></td>
+<td align="center"><sub>slapstick_sad.svg · tragedy · 495 × 297 mm sheet</sub></td>
 </tr>
 </table>
 </div>
@@ -87,7 +87,7 @@ cuts green → orange → cyan → black, with black always the cut that frees t
 violet meaning skip. Learn it once and every file here reads the same way.
 
 Blue never cuts, which is worth knowing before you map the job: send blue to the cutter
-and the 50mm face circle drops out of the paddle.
+and the 50 mm face circle drops out of the paddle.
 
 The outlines come last for the usual reason: once a cut frees a part, anything still to
 be cut inside it can move. Cut the small features while the blank is still held by the
@@ -103,15 +103,15 @@ here — 32 objects each, matching object for object:
 
 | Part | Count | Size |
 |---|---|---|
-| Paddle blank | 3 | 479.7 × 89.7mm |
-| Handle strip | 5 | 90 × 25mm |
-| Face outline, engraved | 3 | 50mm circle, centred 56.7mm from the left end |
-| Glue rectangle, engraved | 3 | 90 × 25mm, starting 294.5mm from the left end |
-| Eyes | 6 | 6mm each |
-| Mouth | 3 | 9.5 × 26mm |
-| Rope-hinge holes | 9 | ~5mm, 12.3mm from the right end, at 22.4 / 44.9 / 67.4mm down |
+| Paddle blank | 3 | 479.7 × 89.7 mm |
+| Handle strip | 5 | 90 × 25 mm |
+| Face outline, engraved | 3 | 50 mm circle, centred 56.7 mm from the left end |
+| Glue rectangle, engraved | 3 | 90 × 25 mm, starting 294.5 mm from the left end |
+| Eyes | 6 | 6 mm each |
+| Mouth | 3 | 9.5 × 26 mm |
+| Rope-hinge holes | 9 | ~5 mm, 12.3 mm from the right end, at 22.4 / 44.9 / 67.4 mm down |
 
-Both sheets are 495 × 297mm and millimetre-true — `1 user unit = 1 mm` with a physical
+Both sheets are 495 × 297 mm and millimetre-true — `1 user unit = 1 mm` with a physical
 `width`/`height` — so they print and cut at real size.
 
 Note the face reads sideways on the sheet, because the paddle is laid out along its
@@ -124,20 +124,20 @@ length. It comes upright when the slapstick is held to swing.
    out**: turn the outer two so the engraving shows, and the middle one however you
    like. This works because the face is symmetric about the paddle's long centreline —
    the circle, the mouth and the glue rectangle sit on it, the two eyes are at
-   exactly ±9mm, and the three rope holes at exactly ±22.5mm and 0 — so turning a
+   exactly ±9 mm, and the three rope holes at exactly ±22.5 mm and 0 — so turning a
    paddle over leaves every feature where it was.
 2. **Glue four short strips into a block, twice.** Each slat gets a handle of its
-   own, 12mm thick. Each sheet carries five strips, so one from each sheet is a
+   own, 12 mm thick. Each sheet carries five strips, so one from each sheet is a
    spare.
 3. **Glue each handle to its slat's outer face over the engraved rectangle**, which is there to
-   show you where. It starts 294.5mm along, so the handle sits toward the far end from
+   show you where. It starts 294.5 mm along, so the handle sits toward the far end from
    the face.
 4. **Lace a rope through the three holes at the far end** to join the two slats. The
    rope is the hinge — there is no pin and no hardware. It lets the slats swing apart
    and snap together, and it is what the holes are for.
 
 The rope is not in these files, and nor is a length or a thickness: both depend on how
-far apart you want the slats to open and what you have to hand. The holes are ~5mm, so
+far apart you want the slats to open and what you have to hand. The holes are ~5 mm, so
 that sets the ceiling.
 
 **The engraved rectangle is a mark, not a recess.** Engraving removes very little
@@ -150,29 +150,29 @@ grip through a small angle swings the tip through the same angle at a much longe
 and the ratio is simply **tip distance ÷ grip distance**, both measured from the hinge.
 Move the grip closer to the hinge and the tip moves faster for the same hand motion.
 
-Measured off the sheet, from the hinge line: the tip is **467mm** away and the engraved
-handle footprint runs from **83mm** to **173mm**.
+Measured off the sheet, from the hinge line: the tip is **467 mm** away and the engraved
+handle footprint runs from **83 mm** to **173 mm**.
 
 | Grip, from the hinge | Tip moves |
 |---|---|
-| 83mm — handle edge nearest the hinge | **5.6×** as fast as your hand |
-| 128mm — centre of the engraved rectangle | **3.6×** |
-| 173mm — handle edge furthest from the hinge | **2.7×** |
+| 83 mm — handle edge nearest the hinge | **5.6×** as fast as your hand |
+| 128 mm — centre of the engraved rectangle | **3.6×** |
+| 173 mm — handle edge furthest from the hinge | **2.7×** |
 
-**You can test this without re-cutting anything.** The handle is 90mm long, so sliding
+**You can test this without re-cutting anything.** The handle is 90 mm long, so sliding
 your hand from one end of it to the other already spans 5.6× down to 2.7× — a factor of
 two in tip speed, on the slapstick as drawn.
 
 If you want more than that, move the engraved rectangle closer to the hinge before
 cutting. Two things push back: the same lever that multiplies speed divides force, so a
 closer grip needs a harder pull for the same swing, and it gets twitchier to aim. The
-handle also has to clear the rope and still fit a hand — 90mm of it.
+handle also has to clear the rope and still fit a hand — 90 mm of it.
 
 ## Before you cut
 
-**Cut it in 3mm Baltic birch plywood.** That is what this is built in, and the laminations
-are counted for it: three paddle blanks make a **9mm** slat, and four handle strips make each slat's
-**12mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
+**Cut it in 3 mm Baltic birch plywood.** That is what this is built in, and the laminations
+are counted for it: three paddle blanks make a **9 mm** slat, and four handle strips make each slat's
+**12 mm** handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those
 thicknesses are doing real work — change the stock and you change how stiff each slat is.
 
 ## Handle it with care
@@ -180,15 +180,15 @@ thicknesses are doing real work — change the stock and you change how stiff ea
 **Unlike the other two, this one is not spun — it is swung and stopped.** Everything you
 put into it arrives at once, at the moment the slats meet.
 
-**Mass.** A slat is three 3mm blanks laminated: **262g**, and the pair with their handles is
+**Mass.** A slat is three 3 mm blanks laminated: **262g**, and the pair with their handles is
 about **561g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
 ten times a three-ply bullroarer, on a lever nearly half a metre long.
 
-**Speed.** The free slat turns about the rope hinge and its tip is **467mm** out. Gripped
+**Speed.** The free slat turns about the rope hinge and its tip is **467 mm** out. Gripped
 at the engraved rectangle the tip moves between **2.7 and 5.6 times** as fast as your
 hand, and moving your grip closer to the hinge raises that.
 
-**The clap.** Two 9mm slats close on each other along their whole length and nothing
+**The clap.** Two 9 mm slats close on each other along their whole length and nothing
 limits how hard. Whatever is in the gap is in a lever's jaws, and fingers are the obvious
 candidate.
 

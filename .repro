@@ -17,3 +17,7 @@ previews/slapstick_sad.svg :: ../lasermade-tools/target/release/make-preview sla
 # --- the pages ---
 index.html :: ../lasermade-tools/target/release/md2html index.md $OUT
 slapstick-3d.html :: target/release/viewer --out=$OUT
+
+# --- the STEP files: the 3D view's parts as solids for a CAD program, one
+# file per design, written from the page by lasermade-tools' step-export ---
+step/slapstick-comedy-and-tragedy.step :: ../lasermade-tools/target/release/step-export slapstick-3d.html --name=slapstick --out=$(dirname $OUT)

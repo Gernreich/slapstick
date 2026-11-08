@@ -157,6 +157,10 @@ from `slapstick-3d.html` by lasermade-tools' `step-export`, and `.repro` checks 
 ../lasermade-tools/target/release/step-export slapstick-3d.html --name=slapstick
 ```
 
+The files:
+
+- `step/slapstick-comedy-and-tragedy.step`
+
 ## Credits
 
 Made by Michael Gernreich with [Claude](https://www.anthropic.com/claude) (Anthropic), working in Claude Code, which co-wrote the code and the documentation. Commits Claude made carry a `Co-Authored-By: Claude` line.

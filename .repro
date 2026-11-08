@@ -1,14 +1,15 @@
 # How every shipped SVG and page in this repository is drawn. Checked by
 # lasermade-tools' repro-svg; $OUT is where the file must be written.
 #
-# The 3D viewer is built from the cut files by viewer.rs (Rust; repro-svg
+# The cut files and the SolidCraft design are drawn by slapstick.rs; the
+# 3D viewer is built from the cut files by viewer.rs (Rust; repro-svg
 # builds it), which reads them with lasermade-tools' turn3d module, so it
 # expects that checkout beside this one.
 
-# --- the cut files: no command in this repository redraws them. They are
-# the source the previews and the viewer are built from. ---
-slapstick_happy.svg :: !
-slapstick_sad.svg :: !
+# --- the cut files, drawn by slapstick.rs from its parameters (by hand in
+# Inkscape until 2026-11-08). The previews and the viewer are built from them. ---
+slapstick_happy.svg :: target/release/slapstick --out=$(dirname $OUT)
+slapstick_sad.svg :: target/release/slapstick --out=$(dirname $OUT)
 
 # --- the previews: display renderings of the cut files ---
 previews/slapstick_happy.svg :: ../lasermade-tools/target/release/make-preview slapstick_happy.svg $OUT
@@ -18,6 +19,12 @@ previews/slapstick_sad.svg :: ../lasermade-tools/target/release/make-preview sla
 index.html :: ../lasermade-tools/target/release/md2html index.md $OUT
 slapstick-3d.html :: target/release/viewer --out=$OUT
 
-# --- the STEP files: the 3D view's parts as solids for a CAD program, one
-# file per design, written from the page by lasermade-tools' step-export ---
-step/slapstick-comedy-and-tragedy.step :: ../lasermade-tools/target/release/step-export slapstick-3d.html --name=slapstick --out=$(dirname $OUT)
+# --- the SolidCraft design: the slats and handles as parametric solids,
+# written by slapstick.rs, and saved by SolidCraft with the build cache left
+# out (lasermade-tools' sc-slim) so the file is the same every time ---
+solidcraft/slapstick-comedy-and-tragedy.solidcraft.json :: target/release/slapstick --no-write --solidcraft=$(dirname $OUT)
+solidcraft/slapstick-comedy-and-tragedy.sc :: target/release/slapstick --no-write --solidcraft=$(dirname $OUT) && solidcraft-cli run $(dirname $OUT)/slapstick-comedy-and-tragedy.solidcraft.json --save $OUT --quiet && ../lasermade-tools/target/release/sc-slim $OUT
+
+# --- the STEP file, written by SolidCraft (solidcraft-cli, on PATH) from that
+# design (by step-export from the 3D view until 2026-11-08) ---
+step/slapstick-comedy-and-tragedy.step :: target/release/slapstick --no-write --solidcraft=$(dirname $OUT) && solidcraft-cli run $(dirname $OUT)/slapstick-comedy-and-tragedy.solidcraft.json --out $OUT --quiet

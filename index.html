@@ -99,7 +99,7 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <body>
 <button class="tog" type="button">theme</button>
 <div class="wrap">
-<nav><b>Contents</b><a class="l1" href="#slapstick--comedy-on-one-side-tragedy-on-the-other">Slapstick — comedy on one side, tragedy on the other</a><a class="l2" href="#get-the-files">Get the files</a><a class="l2" href="#the-two-sheets">The two sheets</a><a class="l2" href="#colour-is-the-cut-order">Colour is the cut order</a><a class="l2" href="#what-is-on-each-sheet">What is on each sheet</a><a class="l2" href="#building-it">Building it</a><a class="l2" href="#before-you-cut">Before you cut</a><a class="l2" href="#handle-it-with-care">Handle it with care</a><a class="l2" href="#files">Files</a><a class="l2" href="#credits">Credits</a></nav>
+<nav><b>Contents</b><a class="l1" href="#slapstick--comedy-on-one-side-tragedy-on-the-other">Slapstick — comedy on one side, tragedy on the other</a><a class="l2" href="#get-the-files">Get the files</a><a class="l2" href="#the-two-sheets">The two sheets</a><a class="l2" href="#colour-is-the-cut-order">Colour is the cut order</a><a class="l2" href="#what-is-on-each-sheet">What is on each sheet</a><a class="l2" href="#building-it">Building it</a><a class="l2" href="#before-you-cut">Before you cut</a><a class="l2" href="#handle-it-with-care">Handle it with care</a><a class="l2" href="#files">Files</a><a class="l2" href="#changing-it">Changing it</a><a class="l2" href="#solidcraft-design-and-step-file">SolidCraft design and STEP file</a><a class="l2" href="#credits">Credits</a></nav>
 <main>
 <h1 id="slapstick--comedy-on-one-side-tragedy-on-the-other">Slapstick — comedy on one side, tragedy on the other</h1>
 <p><strong><a href="https://gernreich.github.io/" target="_blank" rel="noopener">← All projects</a></strong></p>
@@ -116,7 +116,7 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <h2 id="get-the-files">Get the files</h2>
 <ul>
 <li><strong><a href="https://github.com/Gernreich/slapstick/archive/refs/heads/main.zip" target="_blank" rel="noopener">Everything as a ZIP</a></strong> — both sheets.</li>
-<li><strong><a href="https://github.com/Gernreich/slapstick" target="_blank" rel="noopener">Repository</a></strong> — if you want to change a face or the proportions.</li>
+<li><strong><a href="https://github.com/Gernreich/slapstick" target="_blank" rel="noopener">Repository</a></strong> — if you want to change a face or the proportions: every size is a flag on <code>slapstick.rs</code> (see Changing it).</li>
 <li>Or click any picture below to download that one cut file.</li>
 </ul>
 <p>Released under CC0 1.0 — do what you like with them, no attribution needed. Built for <strong><a href="https://www.youtube.com/@LaserMadeMusic" target="_blank" rel="noopener">LaserMadeMusic</a></strong>.</p>
@@ -129,13 +129,13 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <td align="center"><a href="slapstick_happy.svg" target="_blank" rel="noopener"><img src="previews/slapstick_happy.svg" alt="The happy sheet: three long paddle blanks each engraved with a round face outline and a rectangle, with eyes, a smiling mouth and three small holes cut, and five short handle strips below" width="100%"></a></td>
 </tr>
 <tr>
-<td align="center"><sub>slapstick_happy.svg · comedy · 495 × 297 mm sheet</sub></td>
+<td align="center"><sub>slapstick_happy.svg · comedy · 480 × 295 mm sheet</sub></td>
 </tr>
 <tr>
 <td align="center"><a href="slapstick_sad.svg" target="_blank" rel="noopener"><img src="previews/slapstick_sad.svg" alt="The sad sheet: the same three paddle blanks and five handle strips, with the mouth curving the other way" width="100%"></a></td>
 </tr>
 <tr>
-<td align="center"><sub>slapstick_sad.svg · tragedy · 495 × 297 mm sheet</sub></td>
+<td align="center"><sub>slapstick_sad.svg · tragedy · 480 × 295 mm sheet</sub></td>
 </tr>
 </table>
 </div>
@@ -191,7 +191,7 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <p>The outlines come last for the usual reason: once a cut frees a part, anything still to be cut inside it can move. Cut the small features while the blank is still held by the sheet.</p>
 <p>A per-colour job <strong>silently skips any colour you leave unmapped</strong>. Leave black unmapped and you will engrave two faces and cut no paddles.</p>
 <h2 id="what-is-on-each-sheet">What is on each sheet</h2>
-<p>Measured out of the files, not copied from whatever drew them. Both sheets are identical here — 32 objects each, matching object for object:</p>
+<p>Drawn by <code>slapstick.rs</code> from its parameters (by hand in Inkscape until 2026-11-08). The two sheets differ only in the mouth:</p>
 <div class="tw">
 <table>
 <thead>
@@ -205,7 +205,7 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <tr>
 <td>Paddle blank</td>
 <td>3</td>
-<td>479.7 × 89.7 mm</td>
+<td>480 × 90 mm</td>
 </tr>
 <tr>
 <td>Handle strip</td>
@@ -215,7 +215,7 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <tr>
 <td>Face outline, engraved</td>
 <td>3</td>
-<td>50 mm circle, centred 56.7 mm from the left end</td>
+<td>50 mm circle, centred 56.75 mm from the left end</td>
 </tr>
 <tr>
 <td>Glue rectangle, engraved</td>
@@ -235,12 +235,12 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <tr>
 <td>Rope-hinge holes</td>
 <td>9</td>
-<td>~5 mm, 12.3 mm from the right end, at 22.4 / 44.9 / 67.4 mm down</td>
+<td>5 mm, 12.5 mm from the right end, at 22.5 / 45 / 67.5 mm down</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p>Both sheets are 495 × 297 mm and millimetre-true — <code>1 user unit = 1 mm</code> with a physical <code>width</code>/<code>height</code> — so they print and cut at real size.</p>
+<p>Both sheets are 480 × 295 mm and millimetre-true — <code>1 user unit = 1 mm</code> with a physical <code>width</code>/<code>height</code> — so they print and cut at real size.</p>
 <p>Note the face reads sideways on the sheet, because the paddle is laid out along its length. It comes upright when the slapstick is held to swing.</p>
 <h2 id="building-it">Building it</h2>
 <ol type="1">
@@ -249,11 +249,11 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <li><strong>Glue each handle to its slat's outer face over the engraved rectangle</strong>, which is there to show you where. It starts 294.5 mm along, so the handle sits toward the far end from the face.</li>
 <li><strong>Lace a rope through the three holes at the far end</strong> to join the two slats. The rope is the hinge — there is no pin and no hardware. It lets the slats swing apart and snap together, and it is what the holes are for.</li>
 </ol>
-<p>The rope is not in these files, and nor is a length or a thickness: both depend on how far apart you want the slats to open and what you have to hand. The holes are ~5 mm, so that sets the ceiling.</p>
+<p>The rope is not in these files, and nor is a length or a thickness: both depend on how far apart you want the slats to open and what you have to hand. The holes are 5 mm, so that sets the ceiling.</p>
 <p><strong>The engraved rectangle is a mark, not a recess.</strong> Engraving removes very little material, so the handle glues onto the surface rather than into a pocket.</p>
 <h3 id="where-the-handle-sits-decides-how-fast-the-slats-meet">Where the handle sits decides how fast the slats meet</h3>
 <p>The free slat turns about the rope hinge, so the whole thing is a lever. Rotating your grip through a small angle swings the tip through the same angle at a much longer radius, and the ratio is simply <strong>tip distance ÷ grip distance</strong>, both measured from the hinge. Move the grip closer to the hinge and the tip moves faster for the same hand motion.</p>
-<p>Measured off the sheet, from the hinge line: the tip is <strong>467 mm</strong> away and the engraved handle footprint runs from <strong>83 mm</strong> to <strong>173 mm</strong>.</p>
+<p>From the hinge line: the tip is <strong>467.5 mm</strong> away and the engraved handle footprint runs from <strong>83 mm</strong> to <strong>173 mm</strong>.</p>
 <div class="tw">
 <table>
 <thead>
@@ -269,7 +269,7 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 </tr>
 <tr>
 <td>128 mm — centre of the engraved rectangle</td>
-<td><strong>3.6×</strong></td>
+<td><strong>3.7×</strong></td>
 </tr>
 <tr>
 <td>173 mm — handle edge furthest from the hinge</td>
@@ -284,8 +284,8 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <p><strong>Cut it in 3 mm Baltic birch plywood.</strong> That is what this is built in, and the laminations are counted for it: three paddle blanks make a <strong>9 mm</strong> slat, and four handle strips make each slat's <strong>12 mm</strong> handle. A slapstick's whole job is to be swung hard and stopped abruptly, so those thicknesses are doing real work — change the stock and you change how stiff each slat is.</p>
 <h2 id="handle-it-with-care">Handle it with care</h2>
 <p><strong>Unlike the other two, this one is not spun — it is swung and stopped.</strong> Everything you put into it arrives at once, at the moment the slats meet.</p>
-<p><strong>Mass.</strong> A slat is three 3 mm blanks laminated: <strong>262g</strong>, and the pair with their handles is about <strong>561g</strong> in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and ten times a three-ply bullroarer, on a lever nearly half a metre long.</p>
-<p><strong>Speed.</strong> The free slat turns about the rope hinge and its tip is <strong>467 mm</strong> out. Gripped at the engraved rectangle the tip moves between <strong>2.7 and 5.6 times</strong> as fast as your hand, and moving your grip closer to the hinge raises that.</p>
+<p><strong>Mass.</strong> A slat is three 3 mm blanks laminated: <strong>263g</strong>, and the pair with their handles is about <strong>563g</strong> in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and ten times a three-ply bullroarer, on a lever nearly half a metre long.</p>
+<p><strong>Speed.</strong> The free slat turns about the rope hinge and its tip is <strong>467.5 mm</strong> out. Gripped at the engraved rectangle the tip moves between <strong>2.7 and 5.6 times</strong> as fast as your hand, and moving your grip closer to the hinge raises that.</p>
 <p><strong>The clap.</strong> Two 9 mm slats close on each other along their whole length and nothing limits how hard. Whatever is in the gap is in a lever's jaws, and fingers are the obvious candidate.</p>
 <p>So: <strong>keep fingers out of the clap and people out of the swing.</strong> It is loud on purpose — that is the instrument, not a side effect — so mind ears as well as heads, including your own at arm's length. Check the rope and its knots before each session: the hinge is the only thing holding the free slat on.</p>
 <h2 id="files">Files</h2>
@@ -305,12 +305,20 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 <td>the 3D view, assembled from the cut files — drag to turn</td>
 </tr>
 <tr>
+<td><code>slapstick.rs</code></td>
+<td>draws both cut sheets and writes the SolidCraft design from the parameters below: <code>cargo build --release</code>, then <code>target/release/slapstick</code></td>
+</tr>
+<tr>
+<td><code>solidcraft/</code> · <code>step/</code></td>
+<td>the SolidCraft design and the STEP file built from it (below)</td>
+</tr>
+<tr>
 <td><code>viewer.rs</code></td>
 <td>builds <code>slapstick-3d.html</code> from the cut files, with the turn3d module in lasermade-tools: <code>cargo build --release</code>, then <code>target/release/viewer</code></td>
 </tr>
 <tr>
 <td><code>Cargo.toml</code> · <code>Cargo.lock</code></td>
-<td>the Rust package for <code>viewer.rs</code>; it expects the lasermade-tools checkout beside this one</td>
+<td>the Rust package for <code>slapstick.rs</code> and <code>viewer.rs</code>; it expects the lasermade-tools checkout beside this one</td>
 </tr>
 <tr>
 <td><code>.repro</code></td>
@@ -323,6 +331,127 @@ pre,.tw{break-inside:avoid}h1{break-after:avoid}}
 </tbody>
 </table>
 </div>
+<h2 id="changing-it">Changing it</h2>
+<p>Every size is a parameter, and each is a flag on <code>slapstick.rs</code> (<code>--handle-x=280</code>, a dash for each underscore) and a parameter of the same name in the SolidCraft design:</p>
+<div class="tw">
+<table>
+<thead>
+<tr>
+<th>parameter</th>
+<th>default</th>
+<th>what it is</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ply</code></td>
+<td>3 mm</td>
+<td>the ply: every part</td>
+</tr>
+<tr>
+<td><code>length</code></td>
+<td>480 mm</td>
+<td>a paddle, hinge end to tip</td>
+</tr>
+<tr>
+<td><code>width</code></td>
+<td>90 mm</td>
+<td>a paddle, across</td>
+</tr>
+<tr>
+<td><code>face_x</code></td>
+<td>56.75 mm</td>
+<td>the face's centre from the tip end</td>
+</tr>
+<tr>
+<td><code>face_d</code></td>
+<td>50 mm</td>
+<td>the engraved face circle</td>
+</tr>
+<tr>
+<td><code>eye_d</code></td>
+<td>6 mm</td>
+<td>an eye</td>
+</tr>
+<tr>
+<td><code>eye_dx</code></td>
+<td>7 mm</td>
+<td>the eyes from the face's centre, toward the hinge</td>
+</tr>
+<tr>
+<td><code>eye_dy</code></td>
+<td>9 mm</td>
+<td>each eye from the centreline</td>
+</tr>
+<tr>
+<td><code>mouth_ro</code></td>
+<td>15 mm</td>
+<td>the mouth's outer arc, radius</td>
+</tr>
+<tr>
+<td><code>mouth_ri</code></td>
+<td>11 mm</td>
+<td>the mouth's inner arc, radius</td>
+</tr>
+<tr>
+<td><code>mouth_span</code></td>
+<td>120°</td>
+<td>the angle the mouth's arcs span</td>
+</tr>
+<tr>
+<td><code>mouth_dx</code></td>
+<td>2.5 mm</td>
+<td>the smile's arc centre from the face's centre, toward the hinge</td>
+</tr>
+<tr>
+<td><code>hinge_d</code></td>
+<td>5 mm</td>
+<td>a rope hole</td>
+</tr>
+<tr>
+<td><code>hinge_inset</code></td>
+<td>12.5 mm</td>
+<td>the rope holes from the hinge end</td>
+</tr>
+<tr>
+<td><code>hinge_pitch</code></td>
+<td>22.5 mm</td>
+<td>rope hole to rope hole</td>
+</tr>
+<tr>
+<td><code>handle_x</code></td>
+<td>294.5 mm</td>
+<td>the handle's near end from the tip end</td>
+</tr>
+<tr>
+<td><code>handle_len</code></td>
+<td>90 mm</td>
+<td>the handle and each strip, long</td>
+</tr>
+<tr>
+<td><code>handle_w</code></td>
+<td>25 mm</td>
+<td>the handle and each strip, across</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><code>target/release/slapstick</code> prints the masses, the lever ratios and a validation block: the eyes and mouth inside the face, the mouth a band, the eyes clear of it, the face clear of the handle, at least a hole's width of ply round the rope holes, the handle short of them, and each sheet on the 600 × 305 mm bed. <code>--out=DIR</code> writes the sheets elsewhere and <code>--no-write</code> only checks.</p>
+<p>What the hand drawing had that this does not: paddles 479.71 by 89.71 mm (Inkscape's size for a 480 by 90 rectangle less its stroke), two hinge holes per paddle drawn 4.94 mm across and 0.12 mm in from the third, and every part 0.008 mm in from the sheet's corner.</p>
+<h2 id="solidcraft-design-and-step-file">SolidCraft design and STEP file</h2>
+<p><code>solidcraft/slapstick-comedy-and-tragedy.solidcraft.json</code> is the slapstick as a parametric SolidCraft design, written by</p>
+<pre><code>target/release/slapstick --no-write --solidcraft=solidcraft</code></pre>
+<p>and SolidCraft builds the design file and the STEP file from it:</p>
+<pre><code>cd solidcraft
+solidcraft-cli run slapstick-comedy-and-tragedy.solidcraft.json --save slapstick-comedy-and-tragedy.sc --out ../step/slapstick-comedy-and-tragedy.step --quiet
+../../lasermade-tools/target/release/sc-slim slapstick-comedy-and-tragedy.sc</code></pre>
+<p>It is one body per part, 14 in all: the comedy slat's three paddles on the bench, the tragedy slat's three on them, closed, and a four-strip handle block on each slat's outer face. Every size follows the parameters above. The eyes, mouth and rope holes are cut through; engraving has no depth and is left out. Built, each body's volume matches the generator's to within 2e-6, and with nine parameters moved at once the design builds the same bodies as the generator does at those values. <code>.repro</code> checks all three files. The STEP file used to be written from the 3D view by <code>step-export</code>; since 2026-11-08 SolidCraft builds it.</p>
+<p>The files:</p>
+<ul>
+<li><code>solidcraft/slapstick-comedy-and-tragedy.solidcraft.json</code></li>
+<li><code>solidcraft/slapstick-comedy-and-tragedy.sc</code></li>
+<li><code>step/slapstick-comedy-and-tragedy.step</code></li>
+</ul>
 <h2 id="credits">Credits</h2>
 <p>Made by Michael Gernreich with <a href="https://www.anthropic.com/claude" target="_blank" rel="noopener">Claude</a> (Anthropic), working in Claude Code, which co-wrote the code and the documentation. Commits Claude made carry a <code>Co-Authored-By: Claude</code> line.</p>
 </main>

@@ -181,7 +181,7 @@ thicknesses are doing real work — change the stock and you change how stiff ea
 put into it arrives at once, at the moment the slats meet.
 
 **Mass.** A slat is three 3 mm blanks laminated: **263g**, and the pair with their handles is
-about **563g** in Baltic birch at 680 kg/m³. That is four times a three-ply buzz disc and
+about **563g** in Baltic birch at 680 kg/m³. That is five times a three-ply buzz disc and
 ten times a three-ply bullroarer, on a lever nearly half a metre long.
 
 **Speed.** The free slat turns about the rope hinge and its tip is **467.5 mm** out. Gripped
